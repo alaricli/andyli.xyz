@@ -3,10 +3,9 @@ import React from "react";
 function AboutMe() {
   return (
     <div>
-      AboutMe
       <div className="skills">
-        <h1>Technical Skills</h1>
-        <ol className="list">
+        <h1>About Me</h1>
+        {/* <ol className="list">
           <li className="item">
             <h2>Programming Languages</h2>
             <span>Python, Java, SQL, JavaScript, C++, Swift</span>
@@ -24,7 +23,11 @@ function AboutMe() {
               Postman, Citrix, AWS (EC2)
             </span>
           </li>
-        </ol>
+        </ol> */}
+        <p>Hello</p>
+        <a href="wwww.google.com" target="_blank" rel="noopener noreferrer">
+          Resume
+        </a>
       </div>
     </div>
   );

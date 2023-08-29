@@ -3,12 +3,16 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import pic from "/Users/andyli/Projects/andyli.xyz/src/assets/IMG_5936.png";
 import "../styles/Home.css";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
+        <div className="picture">
+          <img src={pic} alt="Pic" />
+        </div>
         <h2>Andy Li (Alaric)</h2>
         <div className="prompt">
           <p>Business & CS @ UBC</p>
