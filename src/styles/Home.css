@@ -5,6 +5,13 @@
   color: #3e497a;
 }
 
+.picture img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 400px;
+}
+
 .about {
   width: 100%;
   height: calc(100vh - 100px);
@@ -17,8 +24,9 @@
   color: #f0f0f0;
 }
 
+/* Name */
 .about h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 80px;
   color: #e9d35b;
   height: 50px;
@@ -28,41 +36,11 @@
   width: 40%;
   font-size: 30px;
 }
+
 .prompt svg {
   font-size: 60px;
   margin: 5px;
   color: white;
-}
-
-.skills {
-  font-size: 35px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skills h1 {
-  color: #3e497a;
-}
-
-.skills .list {
-  list-style: none;
-  width: 60%;
-}
-
-.list span {
-  font-size: 20px;
-}
-
-/* Home.css */
-
-.picture img {
-  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-  width: auto; /* Automatically adjust the width while maintaining aspect ratio */
-  height: auto; /* Automatically adjust the height while maintaining aspect ratio */
-  max-height: 400px; /* Set a maximum height if needed */
 }
 
 @media only screen and (max-width: 600px) {
@@ -75,17 +53,4 @@
     font-size: 20px;
     width: 80%;
   }
-
-  .skills {
-    text-align: center;
-  }
-  .list {
-    padding: 0;
-  }
-
-  .skills h2 {
-    font-size: 30px;
-  }
-
-  /* Home.css */
 }
