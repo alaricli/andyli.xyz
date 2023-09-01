@@ -1,0 +1,15 @@
+.blog {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.blog-title {
+  color: black;
+  font-size: 50px;
+}
