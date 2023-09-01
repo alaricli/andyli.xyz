@@ -1,0 +1,39 @@
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.aboutme {
+  font-size: 30px;
+  max-width: 50%;
+  text-align: left;
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.resume {
+  font-size: 20px;
+  color: white;
+}
+
+.resumeLink {
+  color: white;
+}
+
+.aboutme-title {
+  font-size: 60px;
+  margin-left: 20px; /* Adjust as needed */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .title,
+  .aboutme {
+    margin-left: 10px; /* Adjust for smaller screens */
+  }
+}
